@@ -8,7 +8,8 @@ import cors from 'cors'
 const app=express();
 import dns from "dns";
 
-dns.setServers(["8.8.8.8", "8.8.4.4","0.0.0.0"]);
+
+dns.setServers(["8.8.8.8", "8.8.4.4"]);
 app.use(cors({origin:process.env.FRONTEND_URL, methods: ['GET', 'POST', 'PUT', 'DELETE'], credentials: true}));
 app.use(express.json());
 
@@ -16,7 +17,6 @@ connectDB();
 
 app.get('/', (req,res)=>{
     res.send('API is running')
-    console.log("ji")
 })
 app.use('/api',router);
 app.use('/api/ai', aiRouter);

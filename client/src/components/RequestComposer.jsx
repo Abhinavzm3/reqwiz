@@ -105,7 +105,6 @@ export default function RequestComposer() {
     setLoading(true)
     try {
       const url = baseUrl + (queryString ? `?${queryString}` : '')
-      console.log(url)
       const headersObj = headers.reduce((acc, { key, value }) => {
         if (key) acc[key] = value
         return acc
@@ -364,13 +363,18 @@ export default function RequestComposer() {
               )}
             </div>
           )}
+        </aside>
+      </div>
 
+      {/* Response Viewer — full width below the composer */}
+      {response && (
+        <div className="border-t border-slate-200 p-5">
           <ResponseViewer
             response={response}
             requestDetails={{ method, url: baseUrl + (queryString ? `?${queryString}` : ''), headers, body }}
           />
-        </aside>
-      </div>
+        </div>
+      )}
     </div>
   )
 }

@@ -14,15 +14,6 @@ const LandingPage = () => {
                 <span className="ml-3 text-xl font-bold text-gray-900">ReqWiz</span>
               </div>
               <div className="hidden md:ml-10 md:flex space-x-8">
-                {/* <a href="#features" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-500 hover:text-gray-700">
-                  Features
-                </a>
-                <a href="#testimonials" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-500 hover:text-gray-700">
-                  Testimonials
-                </a>
-                <a href="#pricing" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-500 hover:text-gray-700">
-                  Pricing
-                </a> */} 
               </div>
             </div>
             <div className="flex items-center">
@@ -177,75 +168,6 @@ const LandingPage = () => {
         </div>
       </div>
 
-      {/* Testimonials */}
-      {/* <div className="bg-gray-50 py-16" id="testimonials">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-center text-gray-900 mb-12">What Developers Say</h2>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-white p-6 rounded-xl shadow-sm">
-              <div className="flex items-center mb-4">
-                <div className="bg-gray-200 border-2 border-dashed rounded-xl w-16 h-16" />
-                <div className="ml-4">
-                  <h4 className="font-bold text-gray-900">Alex Johnson</h4>
-                  <p className="text-gray-600">Senior Developer</p>
-                </div>
-              </div>
-              <p className="text-gray-600 italic">
-                "API Nexus has transformed how we test our APIs. The automated testing suite saved us countless hours of manual testing."
-              </p>
-              <div className="flex text-yellow-400 mt-4">
-                <FiStar className="fill-current" />
-                <FiStar className="fill-current" />
-                <FiStar className="fill-current" />
-                <FiStar className="fill-current" />
-                <FiStar className="fill-current" />
-              </div>
-            </div>
-            
-            <div className="bg-white p-6 rounded-xl shadow-sm">
-              <div className="flex items-center mb-4">
-                <div className="bg-gray-200 border-2 border-dashed rounded-xl w-16 h-16" />
-                <div className="ml-4">
-                  <h4 className="font-bold text-gray-900">Sarah Williams</h4>
-                  <p className="text-gray-600">API Architect</p>
-                </div>
-              </div>
-              <p className="text-gray-600 italic">
-                "The collections feature is a game-changer. We've organized all our endpoints and share them across teams seamlessly."
-              </p>
-              <div className="flex text-yellow-400 mt-4">
-                <FiStar className="fill-current" />
-                <FiStar className="fill-current" />
-                <FiStar className="fill-current" />
-                <FiStar className="fill-current" />
-                <FiStar className="fill-current" />
-              </div>
-            </div>
-            
-            <div className="bg-white p-6 rounded-xl shadow-sm">
-              <div className="flex items-center mb-4">
-                <div className="bg-gray-200 border-2 border-dashed rounded-xl w-16 h-16" />
-                <div className="ml-4">
-                  <h4 className="font-bold text-gray-900">Michael Chen</h4>
-                  <p className="text-gray-600">DevOps Engineer</p>
-                </div>
-              </div>
-              <p className="text-gray-600 italic">
-                "The history tracking feature alone is worth it. Never lose track of an API call again. A must-have tool for any developer."
-              </p>
-              <div className="flex text-yellow-400 mt-4">
-                <FiStar className="fill-current" />
-                <FiStar className="fill-current" />
-                <FiStar className="fill-current" />
-                <FiStar className="fill-current" />
-                <FiStar className="fill-current" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
-
       {/* CTA Section */}
       <div className="bg-gradient-to-r from-blue-600 to-purple-600 py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -276,35 +198,12 @@ const LandingPage = () => {
               </p>
             </div>
             
-            {/* <div>
-              <h4 className="text-lg font-semibold mb-4">Product</h4>
-              <ul className="space-y-2 text-gray-400">
-                <li><a href="#features" className="hover:text-white">Features</a></li>
-                <li><a href="#" className="hover:text-white">Pricing</a></li>
-                <li><a href="#" className="hover:text-white">Integrations</a></li>
-                <li><a href="#" className="hover:text-white">Updates</a></li>
-              </ul>
-            </div> */}
-            
             <div>
               <h4 className="text-lg font-semibold mb-4">Resources</h4>
               <ul className="space-y-2 text-gray-400">
                 <li><a href="" className="hover:text-white">Documentation</a></li>
-                {/* <li><a href="#" className="hover:text-white">Tutorials</a></li>
-                <li><a href="#" className="hover:text-white">Blog</a></li>
-                <li><a href="#" className="hover:text-white">Community</a></li> */}
               </ul>
             </div>
-            
-            {/* <div>
-              <h4 className="text-lg font-semibold mb-4">ReqWiz</h4>
-              <ul className="space-y-2 text-gray-400">
-                <li><a href="#" className="hover:text-white">About</a></li>
-                <li><a href="#" className="hover:text-white">Careers</a></li>
-                <li><a href="#" className="hover:text-white">Contact</a></li>
-                <li><a href="#" className="hover:text-white">Legal</a></li>
-              </ul>
-            </div> */}
           </div>
           
           <div className="border-t border-gray-800 mt-10 pt-6 text-center text-gray-400">

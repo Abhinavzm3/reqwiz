@@ -419,9 +419,11 @@ export default function ResponseViewer({ response, requestDetails }) {
   return (
     <>
       {/* Inline viewer */}
-      <div className="mt-6">
-        <ViewerContent {...sharedProps} />
-      </div>
+      {!fullscreen && (
+        <div className="mt-6">
+          <ViewerContent {...sharedProps} />
+        </div>
+      )}
 
       {/* Fullscreen overlay */}
       {fullscreen && (
